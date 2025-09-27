@@ -86,8 +86,8 @@ Think of it as the "universal translator" for AI agents. Instead of each AI syst
 - [ai-zerolab/pydantic-ai-deepagent](https://github.com/ai-zerolab/pydantic-ai-deepagent) - Reasoning model integration for pydantic-ai's agent
 
 
-
 ### <a name="LangGraph"></a>LangGraph
+
 - [guy-hartstein/company-research-agent](https://github.com/guy-hartstein/company-research-agent) - An agentic company research tool powered by LangGraph and Tavily that conducts deep diligence on companies using a multi-agent framework. It leverages Google's Gemini 2.5 Flash and OpenAI's GPT-4.1 on the backend for inference.
 - [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) - Build resilient language agents as graphs.
 - [mayooear/ai-pdf-chatbot-langchain](https://github.com/mayooear/gpt4-pdf-chatbot-langchain) - AI PDF chatbot agent built with LangChain & LangGraph 
@@ -136,9 +136,8 @@ Think of it as the "universal translator" for AI agents. Instead of each AI syst
 
 - [lesteroliver911/llamaindex-agentworkflow-browse-agent](https://github.com/lesteroliver911/llamaindex-agentworkflow-browse-agent) - Automate web interactions using LLMs and Llama-Index AgentWorkflow
 - [sulaiman-shamasna/LlamaIndex-chatbot-with-advanced-search-and-RAG](https://github.com/sulaiman-shamasna/LlamaIndex-chatbot-with-advanced-search-and-RAG) - This chatbot utilizes the concept of Agentic RAG to develop an advanced chatbot that is capable of reasoning among complicated-context documents
-
-$$LlamaIndex$$- [TuanaCelik/llama_index_zoom_assistant](https://github.com/TuanaCelik/llama_index_zoom_assistant) - 📹 🦙 Zoom Note Taker Agent for Notion, built with LlamaIndex
-$$LlamaIndex$$- [run-llama/llama_index](https://github.com/jerryjliu/llama_index) - LlamaIndex is the leading framework for building LLM-powered agents over your data.
+- [TuanaCelik/llama_index_zoom_assistant](https://github.com/TuanaCelik/llama_index_zoom_assistant) - 📹 🦙 Zoom Note Taker Agent for Notion, built with LlamaIndex
+- [run-llama/llama_index](https://github.com/jerryjliu/llama_index) - LlamaIndex is the leading framework for building LLM-powered agents over your data.
 
 
 ### <a name="OpenAI Agents SDK"></a>OpenAI Agents SDK
