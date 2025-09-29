@@ -1,0 +1,4074 @@
+{
+  "scanned_root": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos",
+  "repos": [
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/AIAnytime-CrewAI-AgentOps",
+      "agents": [
+        {
+          "name": "researcher",
+          "role": "Senior Research Analyst",
+          "goal": "Uncover cutting-edge developments in AI and data science",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "search_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "writer",
+          "role": "Tech Content Strategist",
+          "goal": "Craft compelling content on tech advancements",
+          "llm": "unknown",
+          "tools_used": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/AshAIDevelopment-PersonalBrandTeam",
+      "agents": [
+        {
+          "name": "Personal_Brand_Consultant",
+          "role": "Personal Brand Consultant",
+          "goal": "Gather insights into the user's personal brand vision, mission, and target audience, and provide a comprehensive understanding of their brand aspirations. While giving honest feedback.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "unknown",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "Brand_Identity_Writer",
+          "role": "Brand Identity Analyst",
+          "goal": "To synthesize insights from the initial review into a cohesive analysis, outlining the discrepancies between the current and ideal state of the user's personal brand, complete with actionable recommendations.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "unknown",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "Trend_Research_Topic_Generator",
+          "role": "Digital Trends Analyst",
+          "goal": "To scour a wide array of sources, including DuckDuckGo, Google Trends, YouTube, and other relevant platforms, for trends, articles, books, and videos that align with the user's brand strategy.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "google_trends_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "search_internet",
+              "qualname": "PersonalBrandingTeam.search_internet",
+              "kind": "function",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/AshAIDevelopment-PersonalBrandTeam/PersonalBrandingTeam.py",
+              "docstring": "Searches the internet with Serpapi about a given topic and returns relevant results."
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/Maryam-Nasseri-RAG-based-AI-Agents",
+      "agents": [
+        {
+          "name": "researcher",
+          "role": "Expert Data Analyst",
+          "goal": "Extract relevant data from the csv file and structure them as instructed",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "writer",
+          "role": "Technical Report Writer",
+          "goal": "Summarise the researcher's responses in relevant and precise steps and then write technical report on the summarised data using your knowledge",
+          "llm": "unknown",
+          "tools_used": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/MuhammadSalmanAhmad-business-blog-generator",
+      "agents": [],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/NTTLuke-spotify-playlist-old",
+      "agents": [
+        {
+          "name": "agent",
+          "role": "Expert Text Analyzer for music selection",
+          "goal": "",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Expert Music Curator",
+          "goal": "",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "search_internet",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Spotify API Expert",
+          "goal": "",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "search_songs_uris",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "create_playlist_by_uris",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Spotify DJ Expert",
+          "goal": "",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "start_playing_playlist",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "file": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/NTTLuke-spotify-playlist-old/spotify_playlist/api.py",
+          "reason": "SyntaxError: f-string: unmatched '['"
+        }
+      ]
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/NebeyouMusie-News-AI-Agents-Using-CrewAI-And-Google-Gemini-Pro-LLM-Models",
+      "agents": [
+        {
+          "name": "news_researcher",
+          "role": "Senior Researcher",
+          "goal": "Uncover ground breaking technologies in {topic}",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "news_writer",
+          "role": "Writer",
+          "goal": "Narrate compelling tech stories about {topic}",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/NoManNayeem-Langchain_CrewAI_Gemini-AI_Agents",
+      "agents": [
+        {
+          "name": "researcher",
+          "role": "Senior Research Analyst",
+          "goal": "Uncover cutting-edge developments in AI and data science",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "search_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "writer",
+          "role": "Tech Content Strategist",
+          "goal": "Craft compelling content on tech advancements",
+          "llm": "unknown",
+          "tools_used": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/VishApp-multiagent-debugger",
+      "agents": [
+        {
+          "name": "agent",
+          "role": "Error Pattern Detective",
+          "goal": "Extract error classification and analysis tasks from user questions",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "unknown",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Code Path Validator",
+          "goal": "Validate code paths and determine if files are accessible for analysis",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "unknown",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Log Analysis Expert",
+          "goal": "Extract code paths and error patterns from logs for debugging",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "unknown",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Root Cause Analyst",
+          "goal": "Synthesize findings from all agents to identify root causes and provide actionable solutions",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "unknown",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Multi-Language Code Analysis Expert",
+          "goal": "Analyze specific code files and lines across multiple programming languages to identify root causes of errors",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "unknown",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/Vjeroen-PurpleCrew",
+      "agents": [
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "pdf_search_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "exctractor_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "serper_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "serper_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "serper_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "exctractor_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "serper_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "caldera_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "sentinel_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "matrix_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "sentinel_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "analytic_rule_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "git_sentinel_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "file": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/Vjeroen-PurpleCrew/src/purplecrew/tools/caldera_tool.py",
+          "reason": "SyntaxError: invalid syntax"
+        }
+      ]
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/aibtcdev-ai-agent-crew",
+      "agents": [
+        {
+          "name": "agent",
+          "role": "Website Scraper",
+          "goal": "Gather relevant information from the provided links. Be verbose, provide as much of the content and necessary context as possible.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "scrape_x_or_twitter_url",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Writer",
+          "goal": "Summarize the gathered information and always return results in markdown format, adhering strictly to provided examples.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Account Manager",
+          "goal": "Read context and execute tasks using tools to interact with a configured wallet.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "get_wallet_addresses",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_wallet_status",
+              "qualname": "legacy_code.aibtc-v1.tasks.get_wallet_status",
+              "kind": "function",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/aibtcdev-ai-agent-crew/legacy_code/aibtc-v1/tasks.py",
+              "docstring": null
+            },
+            {
+              "name": "get_transaction_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_transaction_status",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_aibtc_balance",
+              "qualname": "legacy_code.aibtc-v1.tasks.get_aibtc_balance",
+              "kind": "function",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/aibtcdev-ai-agent-crew/legacy_code/aibtc-v1/tasks.py",
+              "docstring": null
+            },
+            {
+              "name": "get_faucet_drip",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Resource Manager",
+          "goal": "Read context and execute tasks using tools to interact with on-chain resources. Double check that all required arguments are included for the tools.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "get_wallet_status",
+              "qualname": "legacy_code.aibtc-v1.tasks.get_wallet_status",
+              "kind": "function",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/aibtcdev-ai-agent-crew/legacy_code/aibtc-v1/tasks.py",
+              "docstring": null
+            },
+            {
+              "name": "get_recent_payment_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_resource_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_user_data_by_address",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "pay_invoice_for_resource",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_aibtc_balance",
+              "qualname": "legacy_code.aibtc-v1.tasks.get_aibtc_balance",
+              "kind": "function",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/aibtcdev-ai-agent-crew/legacy_code/aibtc-v1/tasks.py",
+              "docstring": null
+            },
+            {
+              "name": "get_faucet_drip",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Wallet Manager",
+          "goal": "Manage Bitcoin wallet operations and provide information",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "get_wallet_status",
+              "qualname": "legacy_code.aibtc-v1.tasks.get_wallet_status",
+              "kind": "function",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/aibtcdev-ai-agent-crew/legacy_code/aibtc-v1/tasks.py",
+              "docstring": null
+            },
+            {
+              "name": "get_wallet_addresses",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_transaction_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_transaction_status",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_aibtc_balance",
+              "qualname": "legacy_code.aibtc-v1.tasks.get_aibtc_balance",
+              "kind": "function",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/aibtcdev-ai-agent-crew/legacy_code/aibtc-v1/tasks.py",
+              "docstring": null
+            },
+            {
+              "name": "get_faucet_drip",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Resource Manager",
+          "goal": "Manage on-chain resources and provide relevant information",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "get_recent_payment_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_resource_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_user_data_by_address",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "pay_invoice_for_resource",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Website Scraper",
+          "goal": "Gather relevant information from the provided links. Be verbose, provide as much of the content and necessary context as possible.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "scrape_x_or_twitter_url",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Meeting Writer",
+          "goal": "Summarize the gathered information and always return results in markdown format, adhering strictly to provided examples.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Account Manager",
+          "goal": "Read context and execute tasks using tools to interact with a configured wallet.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "get_wallet_addresses",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_wallet_status",
+              "qualname": "legacy_code.aibtc-v1.tasks.get_wallet_status",
+              "kind": "function",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/aibtcdev-ai-agent-crew/legacy_code/aibtc-v1/tasks.py",
+              "docstring": null
+            },
+            {
+              "name": "get_transaction_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_transaction_status",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_aibtc_balance",
+              "qualname": "legacy_code.aibtc-v1.tasks.get_aibtc_balance",
+              "kind": "function",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/aibtcdev-ai-agent-crew/legacy_code/aibtc-v1/tasks.py",
+              "docstring": null
+            },
+            {
+              "name": "get_faucet_drip",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Resource Manager",
+          "goal": "Read context and execute tasks using tools to interact with on-chain resources. Double check that all required arguments are included for the tools.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "get_recent_payment_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_resource_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_user_data_by_address",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "pay_invoice_for_resource",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Transaction Manager",
+          "goal": "Manage Bitcoin and Stacks transactions and provide information.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "get_transaction_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_transaction_status",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Wallet Data and Transaction Retriever",
+          "goal": "",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "get_address_balance_detailed",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_address_transactions",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_bns_address",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Pattern Recognition Specialist",
+          "goal": "Identify recurring patterns, unusual activities, and long-term trends in wallet behavior.",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Clarity Environment Maintainer",
+          "goal": "Ensure the Clarity environment is set up correctly and ready for code generation and review.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "initialize_clarinet",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Clarity Project Manager",
+          "goal": "Create a new Clarinet project and add the generated Clarity code to it.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "create_clarinet_project",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Clarity Code Generator",
+          "goal": "Generate Clarity code for a smart contract on the Stacks blockchain based on user input requirements.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "add_new_smart_contract",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "update_smart_contract",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Clarity Code Reviewer",
+          "goal": "Review the generated Clarity code, create a Clarinet project, and check its syntax.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "check_all_smart_contract_syntax",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Clarity Code Reporter",
+          "goal": "Create a detailed report on the code quality, syntax check results, and any issues found.",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Chat Specialist",
+          "goal": "You are responsible for interacting with the user and translating their query into an action.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "get_all_tools",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Contract Retrieval Expert",
+          "goal": "To retrieve the contract code for analysis.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "get_contract_source_code",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Contract Analysis Expert",
+          "goal": "To analyze the contract code and functions to understand the purpose and function of a smart contract.",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Contract Report Writer",
+          "goal": "To compile the findings from the contract analysis into a comprehensive audit report.",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Market Data Retriever",
+          "goal": "Collect historical and real-time price data for the specified cryptocurrency, broken down by Stacks block intervals. Ensure accuracy by retrieving prices from multiple DEXs and identifying anomalies.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "get_crypto_price_history",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_all_swaps",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "get_pool_volume",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Quantitative Trading Strategy Analyzer",
+          "goal": "Analyze recent price trends and perform statistical analysis on historical data to identify trading signals. Provide actionable recommendations (Hold, Buy, or Sell) based on moving averages, volatility patterns, and volume changes.",
+          "llm": "unknown",
+          "tools_used": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/alexnodeland-crewlit",
+      "agents": [
+        {
+          "name": "agent",
+          "role": "t Ag",
+          "goal": "t Ag",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "tools",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": " format_title_",
+          "goal": "rt A",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "mat_title_key\n",
+          "goal": "gent",
+          "llm": null,
+          "tools_used": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/botextractai-ai-crewai-multi-agent",
+      "agents": [
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "search_10k",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "search_10q",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "search_10k",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "search_10q",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI",
+      "agents": [
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "fake_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "fake_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Reporter",
+          "goal": "Report the date",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Reporter",
+          "goal": "Report the date",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Reporter",
+          "goal": "Report the date",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": "openai:gpt-4-0125-preview",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Manager",
+          "goal": "Coordinate scoring processes",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Scorer",
+          "goal": "Score the title",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "scoring_examples",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents. Use the tool provided to you.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "my_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents. Use the tool provided to you.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "my_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "be an assistant that responds with {interpolation-with-hyphens}",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Research a topic",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Research a topic",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Research a topic",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "port threading\n",
+          "goal": "port threading\nfrom con",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Say Hi",
+          "goal": "Say hi to the user",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "CEO",
+          "goal": "Make sure the writers in your company produce amazing content.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Senior Writer",
+          "goal": "Write the best content about AI and AI agents.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": " Researcher ",
+          "goal": "Research with spaces in role",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "SENIOR WRITER",
+          "goal": "Write with caps in role",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Very helpful assistant",
+          "goal": "Comply with necessary changes",
+          "llm": "openai:gpt-4o",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "mock agent",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Greeter",
+          "goal": "Say hello.",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": [
+            {
+              "name": "look_up_greeting",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "return_data",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Be super empathetic.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Be super empathetic.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Manager",
+          "goal": "Coordinate everything.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Express hot takes on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Writer",
+          "goal": "You write lessons of math for kids.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "multiplcation_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Writer",
+          "goal": "You write lessons of math for kids.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "multiplcation_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "You research about math.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "You research about math.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "You research about math.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "You research about math.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "You research about math.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "You research about math.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Analyze AI topics",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Analyze data",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Manager",
+          "goal": "Manage the crew and ensure the tasks are completed efficiently.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Manager",
+          "goal": "Manage the crew and ensure the tasks are completed efficiently.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Manager",
+          "goal": "Manage the crew and ensure the tasks are completed efficiently.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "testing_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Content Writer",
+          "goal": "Write engaging content on various topics.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Research AI advancements.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Writer",
+          "goal": "Write detailed articles on AI.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test_agent",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test_agent",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test_agent",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test_agent",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test_agent",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Researcher",
+          "goal": "Make the best research and analysis on content {topic}",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} Senior Writer",
+          "goal": "Write the best content about {topic}",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{role_detail} Researcher",
+          "goal": "Research on {topic}.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Programmer",
+          "goal": "Write code to solve problems.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Code Reviewer",
+          "goal": "Review code for bugs and improvements",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Multimodal Analyst",
+          "goal": "Handle multiple media types (text, images, etc.).",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Image Analyst",
+          "goal": "Analyze images and provide descriptions",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Visual Quality Inspector",
+          "goal": "Perform detailed quality analysis of product images",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Image Analyst",
+          "goal": "Analyze images with high attention to detail",
+          "llm": "openai:gpt-4o",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Report Writer",
+          "goal": "Create properly formatted reports",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Writer",
+          "goal": "Write content with specific keywords",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Conduct thorough research and analysis on AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Senior Writer",
+          "goal": "Create compelling content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Project Manager",
+          "goal": "Efficiently manage the crew and ensure high-quality task completion",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "You research about math.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Programmer",
+          "goal": "Write code to solve problems.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "You research about math.",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test agent goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test agent goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Visual Quality Inspector",
+          "goal": "Perform detailed quality analysis of product images",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Simple Agent",
+          "goal": "Simple Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "get_mcp_tools",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "get_mcp_tools",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Complete test tasks successfully",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Complete test tasks successfully",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent Eval",
+          "goal": "Complete test tasks successfully",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Simple role",
+          "goal": "Simple goal",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Iterating Agent",
+          "goal": "Call the iterating tool 5 times",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "example_agent",
+          "role": "Number Generator",
+          "goal": "Generate random numbers for various purposes",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "RandomNumberTool",
+              "qualname": "tests.tools.test_tool_usage.RandomNumberTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/tests/tools/test_tool_usage.py",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "researcher",
+          "role": "researcher",
+          "goal": "make the best research and analysis on content about AI and AI agents",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Search relevant data and provide results",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Search relevant data and provide results",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Search relevant data and provide results",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Research quantum computing",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Completely different role",
+          "goal": "Different goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Assistant",
+          "goal": "Help with tasks",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Research information",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Writer",
+          "goal": "Write reports",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Analyst",
+          "goal": "Analyze data",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Research topic",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Research topic",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Tester",
+          "goal": "Test fingerprints",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Complex Test Agent",
+          "goal": "Test complex fingerprint scenarios",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Tester",
+          "goal": "Test fingerprinting",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Tester",
+          "goal": "Test fingerprinting",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Tester1",
+          "goal": "Test fingerprinting",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Tester2",
+          "goal": "Test fingerprinting",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Tester1",
+          "goal": "Test fingerprinting",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Tester2",
+          "goal": "Test fingerprinting",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Tester",
+          "goal": "Test fingerprinting",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Tester",
+          "goal": "Test fingerprinting",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Research information",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Writer",
+          "goal": "Write content",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Tester",
+          "goal": "Test fingerprinting",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Research information",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Writer",
+          "goal": "Write content",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Data Scientist",
+          "goal": "Analyze data",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Data Scientist",
+          "goal": "Analyze data",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Data Scientist",
+          "goal": "Analyze data",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Data Scientist",
+          "goal": "Analyze data",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Researcher",
+          "goal": "Find information",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Writer",
+          "goal": "Create content",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Security Tester",
+          "goal": "Verify security preservation",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test_agent",
+          "goal": "test_goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test_agent",
+          "goal": "test_goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test_agent",
+          "goal": "test_goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test_agent",
+          "goal": "test_goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test Goal",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "custom_tools",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Research Assistant",
+          "goal": "Find information about the population of Tokyo",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "WebSearchTool",
+              "qualname": "tests.agents.test_lite_agent.WebSearchTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/tests/agents/test_lite_agent.py",
+              "docstring": "Tool for searching the web for information."
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Info Gatherer",
+          "goal": "Provide brief information",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "web_search_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Research Assistant",
+          "goal": "Find information about the population of Tokyo",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "WebSearchTool",
+              "qualname": "tests.agents.test_lite_agent.WebSearchTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/tests/agents/test_lite_agent.py",
+              "docstring": "Tool for searching the web for information."
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Research Assistant",
+          "goal": "Find information about the population of Tokyo",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "WebSearchTool",
+              "qualname": "tests.agents.test_lite_agent.WebSearchTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/tests/agents/test_lite_agent.py",
+              "docstring": "Tool for searching the web for information."
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Sports Analyst",
+          "goal": "Gather information about the best soccer players",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Sports Analyst",
+          "goal": "Gather information about the best soccer players",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test Goal",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "tools",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Sports Analyst",
+          "goal": "Gather information about the best soccer players",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Sports Analyst",
+          "goal": "Gather information about the best soccer players",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test Goal",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "WebSearchTool",
+              "qualname": "tests.agents.test_lite_agent.WebSearchTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/tests/agents/test_lite_agent.py",
+              "docstring": "Tool for searching the web for information."
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Role",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Role",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Role",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "openai:gpt-4",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "multiplier",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "multiplier",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "multiplier",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "multiplier",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "openai:o3-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "openai:gpt-4",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "openai:gpt-4",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role2",
+          "goal": "test goal2",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role2",
+          "goal": "test goal2",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "openai:gpt-4o",
+          "tools_used": [
+            {
+              "name": "learn_about_ai",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Data Scientist",
+          "goal": "Product amazing resports on AI",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "MyCustomTool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Friendly Neighbor",
+          "goal": "Make everyone feel welcome",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "MyCustomTool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} specialist",
+          "goal": "Figure {goal} out",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} specialist",
+          "goal": "Figure {goal} out",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} specialist",
+          "goal": "Figure {goal} out",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "{topic} specialist",
+          "goal": "Figure {goal} out",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "First Agent",
+          "goal": "First goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Second Agent",
+          "goal": "Second goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "First Agent",
+          "goal": "First goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Second Agent",
+          "goal": "Second goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "First Agent",
+          "goal": "First goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Second Agent",
+          "goal": "Second goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "researcher",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "dummy_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Information Agent",
+          "goal": "Provide information based on knowledge sources",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Information Agent",
+          "goal": "Provide information based on knowledge sources",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Information Agent",
+          "goal": "Provide information based on knowledge sources",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Information Agent",
+          "goal": "Provide information based on knowledge sources",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Custom Role",
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "test role",
+          "goal": "test goal",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "learn_about_ai",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Information Agent",
+          "goal": "Provide information based on knowledge sources",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Information Agent with extensive role description that is longer than 80 characters",
+          "goal": "Provide information based on knowledge sources",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Information Agent",
+          "goal": "Provide information based on knowledge sources",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Information Agent with extensive role description that is longer than 80 characters",
+          "goal": "Provide information based on knowledge sources",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Information Agent",
+          "goal": "Provide information based on knowledge sources",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Information Agent",
+          "goal": "Provide information based on knowledge sources",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "To test the reasoning feature",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "To test the reasoning feature",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "To test the reasoning feature",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "To test the reasoning feature",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "To test the reasoning feature",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "To test the reasoning feature",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "AI Researcher",
+          "goal": "Research and explain AI concepts",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Planning Agent",
+          "goal": "Plan Step by Step Plan",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Test Agent",
+          "goal": "Test Goal",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "tool1",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "tool2",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Agent 1",
+          "goal": "Goal 1",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Agent 2",
+          "goal": "Goal 2",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Agent 3",
+          "goal": "Goal 3",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Agent 1",
+          "goal": "Goal 1",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "base_agent",
+          "goal": "Just say hi",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "base_agent",
+          "goal": "Just say hi",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "SayHiTool",
+              "qualname": "tests.utilities.test_events.SayHiTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/tests/utilities/test_events.py",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "base_agent",
+          "goal": "Try to use the error tool",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "ErrorTool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "base_agent",
+          "goal": "Just say hi",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "TestAgent",
+          "goal": "Just say hi",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Speaker",
+          "goal": "Just say hi",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Agent 1",
+          "goal": "Goal 1",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Evaluator Agent",
+          "goal": "Evaluate the performance of the agents in the crew",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Agent 1",
+          "goal": "Goal 1",
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "agent",
+          "goal": "Just say hi",
+          "llm": "openai:gpt-4o-mini",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": " json\nimport re\nimport uuid\nimport warnings\nfrom co",
+          "goal": " json\nimport re\nimport uuid\nimport warnings\nfrom co",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "unknown",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Guardrail Agent",
+          "goal": "Validate the output of the task",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": null,
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Task Execution Planner",
+          "goal": "Your goal is to create an extremely detailed, step-by-step plan based on the tasks and tools available to each agent so that they can perform the tasks in an exemplary manner",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Task Execution Evaluator",
+          "goal": "Your goal is to evaluate the performance of the agents in the crew based on the tasks they have performed using score from 1 to 10 evaluating on completion, quality, and overall performance.",
+          "llm": "unknown",
+          "tools_used": []
+        }
+      ],
+      "warnings": [
+        {
+          "file": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/src/crewai/cli/templates/crew/crew.py",
+          "reason": "SyntaxError: invalid syntax"
+        },
+        {
+          "file": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/src/crewai/cli/templates/crew/main.py",
+          "reason": "SyntaxError: invalid syntax"
+        },
+        {
+          "file": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/src/crewai/cli/templates/tool/src/{{folder_name}}/__init__.py",
+          "reason": "SyntaxError: invalid syntax"
+        },
+        {
+          "file": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/src/crewai/cli/templates/tool/src/{{folder_name}}/tool.py",
+          "reason": "SyntaxError: invalid syntax"
+        },
+        {
+          "file": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/crewAIInc-crewAI/src/crewai/cli/templates/flow/main.py",
+          "reason": "SyntaxError: invalid syntax"
+        }
+      ]
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/hanantabak2-crewai_ai_business_consultant_on_streamlit",
+      "agents": [
+        {
+          "name": "planner",
+          "role": "Business Consultant",
+          "goal": "Plan engaging and factually accurate content about the : {topic}",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "writer",
+          "role": "Business Writer",
+          "goal": "Write insightful and factually accurate insights about the topic: {topic}",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "analyst",
+          "role": "Data Analyst",
+          "goal": "Perform Comprehensive Statistical Analysis on the topic: {topic} ",
+          "llm": "unknown",
+          "tools_used": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/joaomdmoura-crewai-tools",
+      "agents": [
+        {
+          "name": "coding_agent",
+          "role": "Coding Agent",
+          "goal": "Generate high quality code and verify that the output is code by using Patronus AI's evaluation tool.",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "patronus_eval_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "Browser",
+          "role": "Browser Agent",
+          "goal": "control web browsers using natural language ",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "multion_browse_tool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Web Researcher",
+          "goal": "Find and extract information from websites using different Stagehand primitives",
+          "llm": "openai:gpt-4o",
+          "tools_used": [
+            {
+              "name": "stagehand_tool",
+              "qualname": "tests.tools.stagehand_tool_test.stagehand_tool",
+              "kind": "function",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/joaomdmoura-crewai-tools/tests/tools/stagehand_tool_test.py",
+              "docstring": null
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/mesutdmn-Autonomous-Multi-Agent-Systems-with-CrewAI-Essay-Writer",
+      "agents": [
+        {
+          "name": "agent",
+          "role": "Content Researcher",
+          "goal": "Research accurate content on {topic}",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Content Writer",
+          "goal": "Write insightful and factually accurate opinion piece about the provided topic",
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": "Content Editor",
+          "goal": "Edit a given essay to align with the writing style of the organization.",
+          "llm": "unknown",
+          "tools_used": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/nicknochnack-WatsonxCrewAI",
+      "agents": [
+        {
+          "name": "researcher",
+          "role": "Senior AI Researcher",
+          "goal": "Find promising research in the field of quantum computing.",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "search",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "writer",
+          "role": "Senior Speech Writer",
+          "goal": "Write engaging and witty keynote speeches from provided research.",
+          "llm": "unknown",
+          "tools_used": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/plaban1981-Crewai-MCP",
+      "agents": [
+        {
+          "name": "agent",
+          "role": "mpor",
+          "goal": "mpor",
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "tools_list",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "file": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/plaban1981-Crewai-MCP/debug_summary.py",
+          "reason": "SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 1282-1283: truncated \\UXXXXXXXX escape"
+        }
+      ]
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/qdrant-webinar-crewai-qdrant-obsidian",
+      "agents": [
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "anthropic:anthropic/claude-3-5-sonnet-20241022",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "anthropic:anthropic/claude-3-5-sonnet-20241022",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "google:gemini/gemini-1.5-flash",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "anthropic:anthropic/claude-3-5-sonnet-20241022",
+          "tools_used": [
+            {
+              "name": "QdrantSearchTool",
+              "qualname": "src.email_assistant.tools.qdrant_tool.tool.QdrantSearchTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/qdrant-webinar-crewai-qdrant-obsidian/src/email_assistant/tools/qdrant_tool/tool.py",
+              "docstring": "A tool that can be used to search in the knowledge base using Qdrant."
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/sachs7-flight_finder_and_trip_planner_crewai",
+      "agents": [
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "SearchFlights",
+              "qualname": "src.flight_finder_and_trip_planner_crewai.tools.google_flights.SearchFlights",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/sachs7-flight_finder_and_trip_planner_crewai/src/flight_finder_and_trip_planner_crewai/tools/google_flights.py",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "SerperDevTool",
+              "qualname": null,
+              "kind": "class",
+              "defined_in": "external",
+              "docstring": null
+            },
+            {
+              "name": "ScrapeWebsiteTool",
+              "qualname": null,
+              "kind": "class",
+              "defined_in": "external",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/tonykipkemboi-crewai-gmail-automation",
+      "agents": [
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "FileReadTool",
+              "qualname": null,
+              "kind": "class",
+              "defined_in": "external",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "GmailOrganizeTool",
+              "qualname": "src.gmail_crew_ai.tools.gmail_tools.GmailOrganizeTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/tonykipkemboi-crewai-gmail-automation/src/gmail_crew_ai/tools/gmail_tools.py",
+              "docstring": "Tool to organize emails based on agent categorization."
+            },
+            {
+              "name": "FileReadTool",
+              "qualname": null,
+              "kind": "class",
+              "defined_in": "external",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "SaveDraftTool",
+              "qualname": "src.gmail_crew_ai.tools.gmail_tools.SaveDraftTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/tonykipkemboi-crewai-gmail-automation/src/gmail_crew_ai/tools/gmail_tools.py",
+              "docstring": "Tool to save an email as a draft using IMAP."
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "SlackNotificationTool",
+              "qualname": "src.gmail_crew_ai.tools.slack_tool.SlackNotificationTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/tonykipkemboi-crewai-gmail-automation/src/gmail_crew_ai/tools/slack_tool.py",
+              "docstring": "Tool to send notifications to Slack."
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "GmailDeleteTool",
+              "qualname": "src.gmail_crew_ai.tools.gmail_tools.GmailDeleteTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/tonykipkemboi-crewai-gmail-automation/src/gmail_crew_ai/tools/gmail_tools.py",
+              "docstring": "Tool to delete an email using IMAP."
+            },
+            {
+              "name": "EmptyTrashTool",
+              "qualname": "src.gmail_crew_ai.tools.gmail_tools.EmptyTrashTool",
+              "kind": "class",
+              "defined_in": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/tonykipkemboi-crewai-gmail-automation/src/gmail_crew_ai/tools/gmail_tools.py",
+              "docstring": "Tool to empty Gmail trash."
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/tonykipkemboi-trip_planner_agent",
+      "agents": [
+        {
+          "name": "agent",
+          "role": "City Selection Expert",
+          "goal": "Select the best city based on weather, season, and prices",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "search_internet",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "scrape_and_summarize_website",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Local Expert at this city",
+          "goal": "Provide the BEST insights about the selected city",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "search_internet",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "scrape_and_summarize_website",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Amazing Travel Concierge",
+          "goal": "Create the most amazing travel itineraries with budget and \n        packing suggestions for the city",
+          "llm": null,
+          "tools_used": [
+            {
+              "name": "search_internet",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "scrape_and_summarize_website",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            },
+            {
+              "name": "calculate",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": "Principal Researcher",
+          "goal": "Do amazing researches and summaries based on the content you are working with",
+          "llm": null,
+          "tools_used": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "repo_path": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/tonykipkemboi-youtube_yapper_trapper",
+      "agents": [
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": [
+            {
+              "name": "YouTubeCommentsTool",
+              "qualname": null,
+              "kind": "unknown",
+              "defined_in": "unknown",
+              "docstring": null
+            }
+          ]
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": []
+        },
+        {
+          "name": "agent",
+          "role": null,
+          "goal": null,
+          "llm": "unknown",
+          "tools_used": []
+        }
+      ],
+      "warnings": [
+        {
+          "file": "/Users/peixuanxia/Experiments/Git/Github/awesome-a2a-agents/crewai-repos/tonykipkemboi-youtube_yapper_trapper/src/youtube_yapper_trapper/tools/custom_tool.py",
+          "reason": "SyntaxError: EOL while scanning string literal"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "repos_scanned": 23,
+    "files_parsed": 890,
+    "agents_found": 395,
+    "tools_resolved": 27,
+    "errors": 9
+  }
+}
